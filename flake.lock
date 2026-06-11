@@ -66,11 +66,11 @@
         "treefmt-nix": "treefmt-nix_2"
       },
       "locked": {
-        "lastModified": 1778606069,
-        "narHash": "sha256-eTW8+H6hvTqOz6B6MNcHcCw62DsS2UWlmbeoMb/rdeQ=",
+        "lastModified": 1781121321,
+        "narHash": "sha256-z3+vahcwZWlOOENr0ExsX5sPLtLukfO5pxeUTKpXpyk=",
         "owner": "snapsettle",
         "repo": "gitgetter",
-        "rev": "9cc54400c9da73bfe1c95d6f4c54307f3c56e289",
+        "rev": "1c0cae1573bc21797ee8a7e2555f77169ea58ba0",
         "type": "github"
       },
       "original": {
