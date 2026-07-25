@@ -8,11 +8,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1780761575,
-        "narHash": "sha256-7frmw1nNmBIr+E0ewqLbPN+zpePLgDbtQ0DPtiCDKSE=",
+        "lastModified": 1784924147,
+        "narHash": "sha256-bGEujVbW6XXR7BjqJJx2FzjS4HF+h96Gen8FaLB6uxQ=",
         "owner": "snapsettle",
         "repo": "dashnix",
-        "rev": "a4d547fabe816d5bbb95e4061d7fec832327b8b5",
+        "rev": "1f5108a88e51a6ed6c7ee8ece0d3c6d6b3d87e18",
         "type": "github"
       },
       "original": {
