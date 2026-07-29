@@ -1,4 +1,4 @@
-# Core Flake
+# SnapCore
 
 The central repository for tools, utilities, and NixOS modules provided by **SnapSettle**. 
 
