@@ -4,8 +4,8 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
-    dashnix.url = "github:snapsettle/dashnix";
-    dashnix.inputs.nixpkgs.follows = "nixpkgs";
+    dashboard.url = "github:snapsettle/dashboard";
+    dashboard.inputs.nixpkgs.follows = "nixpkgs";
 
     nix-helpers.url = "github:snapsettle/nix-helpers";
     nix-helpers.inputs.nixpkgs.follows = "nixpkgs";
