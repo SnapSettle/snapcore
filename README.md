@@ -52,7 +52,7 @@ outputs = { nixpkgs, snapcore, ... }: {
   nixosConfigurations.mySystem = nixpkgs.lib.nixosSystem {
     system = "x86_64-linux";
     modules = [
-      snapcore.nixosModules.dashnix
+      snapcore.nixosModules.dashboard
       snapcore.nixosModules.gitgetter
       ./configuration.nix
     ];
