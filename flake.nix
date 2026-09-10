@@ -21,7 +21,7 @@
     {
       self,
       nixpkgs,
-      dashnix,
+      dashboard,
       nix-helpers,
       gitgetter,
       treefmt-nix,
@@ -49,13 +49,13 @@
       );
 
       nixosModules = {
-        dashnix = dashnix.nixosModules.default;
+        dashboard = dashboard.nixosModules.default;
         nix-helpers = nix-helpers.nixosModules.default;
         gitgetter = gitgetter.nixosModules.default;
 
         default = {
           imports = [
-            dashnix.nixosModules.default
+            dashboard.nixosModules.default
             nix-helpers.nixosModules.default
             gitgetter.nixosModules.default
           ];
@@ -63,7 +63,7 @@
       };
 
       packages = nixpkgs.lib.genAttrs systems (system: {
-        dashnix = dashnix.packages.${system}.default;
+        dashboard = dashboard.packages.${system}.default;
         nix-helpers = nix-helpers.packages.${system}.default;
         gitgetter = gitgetter.packages.${system}.default;
       });

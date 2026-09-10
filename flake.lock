@@ -1,6 +1,6 @@
 {
   "nodes": {
-    "dashnix": {
+    "dashboard": {
       "inputs": {
         "nixpkgs": [
           "nixpkgs"
@@ -11,13 +11,13 @@
         "lastModified": 1788626457,
         "narHash": "sha256-89Rv7IideTruEYoNBV7BuG3ckUHA4/4oew+S++Q9Edc=",
         "owner": "snapsettle",
-        "repo": "dashnix",
+        "repo": "dashboard",
         "rev": "7c4e8deb5b554a8c7b60e520fa273098f3bd9714",
         "type": "github"
       },
       "original": {
         "owner": "snapsettle",
-        "repo": "dashnix",
+        "repo": "dashboard",
         "type": "github"
       }
     },
@@ -88,11 +88,11 @@
         "treefmt-nix": "treefmt-nix_3"
       },
       "locked": {
-        "lastModified": 1788886957,
-        "narHash": "sha256-ceFs+ITZMrTafm5JDBj2zyHmyFccK0SuYHNGxBt0bx0=",
+        "lastModified": 1789060226,
+        "narHash": "sha256-3Dzy24M7vutcsw6/zuENvJUulHRpetIP8e/if4AxLAA=",
         "owner": "snapsettle",
         "repo": "nix-helpers",
-        "rev": "266fc4c06aa74f4b13e27047af0bf308682503b2",
+        "rev": "9954deca2d681831771dbd3f12cfd385bbbf38b3",
         "type": "github"
       },
       "original": {
@@ -135,11 +135,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1788881743,
-        "narHash": "sha256-2V9GZGvPfrNzxFozhI9dcqV+c3QdA8YZrvAAzqEB+dI=",
+        "lastModified": 1789006805,
+        "narHash": "sha256-xB8mKMOx1IA9vTDNLmJZ6n4wCMq/cuWBBOzGCRnqxrU=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "d6524aaca2ff07876657ae2b323f24be4874944b",
+        "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
         "type": "github"
       },
       "original": {
@@ -151,7 +151,7 @@
     },
     "root": {
       "inputs": {
-        "dashnix": "dashnix",
+        "dashboard": "dashboard",
         "gitgetter": "gitgetter",
         "nix-helpers": "nix-helpers",
         "nixpkgs": "nixpkgs_3",
