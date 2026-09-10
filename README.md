@@ -6,7 +6,7 @@ Instead of managing multiple individual repository URLs in your system configura
 
 ## Included Projects
 
-- [Dashnix](https://github.com/SnapSettle/Dashnix) (NixOS Module)
+- [Dashboard](https://github.com/SnapSettle/dashboard) (NixOS Module)
 - [nix-helpers](https://github.com/SnapSettle/nix-helpers) (NixOS Module & Package)
 - [gitgetter](https://github.com/SnapSettle/gitgetter) (NixOS Module & Package)
 
