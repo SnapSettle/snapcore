@@ -8,6 +8,7 @@ Instead of managing multiple individual repository URLs in your system configura
 
 - [Dashboard](https://github.com/SnapSettle/dashboard) (NixOS Module)
 - [nix-helpers](https://github.com/SnapSettle/nix-helpers) (NixOS Module & Package)
+- [ai.sh](https://github.com/SnapSettle/ai.sh) (Package)
 - [gitgetter](https://github.com/SnapSettle/gitgetter) (NixOS Module & Package)
 
 ## Getting Started

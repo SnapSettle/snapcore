@@ -4,17 +4,30 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
-    dashboard.url = "github:snapsettle/dashboard";
-    dashboard.inputs.nixpkgs.follows = "nixpkgs";
+    dashboard = {
+      url = "github:snapsettle/dashboard";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
-    nix-helpers.url = "github:snapsettle/nix-helpers";
-    nix-helpers.inputs.nixpkgs.follows = "nixpkgs";
+    nix-helpers = {
+      url = "github:snapsettle/nix-helpers";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
-    gitgetter.url = "github:snapsettle/gitgetter";
-    gitgetter.inputs.nixpkgs.follows = "nixpkgs";
+    gitgetter = {
+      url = "github:snapsettle/gitgetter";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
-    treefmt-nix.url = "github:numtide/treefmt-nix";
-    treefmt-nix.inputs.nixpkgs.follows = "nixpkgs";
+    ai-sh = {
+      url = "github:snapsettle/ai.sh";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    treefmt-nix = {
+      url = "github:numtide/treefmt-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -63,7 +76,6 @@
       };
 
       packages = nixpkgs.lib.genAttrs systems (system: {
-        dashboard = dashboard.packages.${system}.default;
         nix-helpers = nix-helpers.packages.${system}.default;
         gitgetter = gitgetter.packages.${system}.default;
       });
