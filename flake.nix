@@ -37,6 +37,7 @@
       dashboard,
       nix-helpers,
       gitgetter,
+      ai-sh,
       treefmt-nix,
       ...
     }:
@@ -51,8 +52,7 @@
       treefmtConfig = eachSystem (
         pkgs:
         treefmt-nix.lib.evalModule pkgs {
-          projectRootFile = "flake.nix";
-          programs.nixfmt.enable = true; # Enables the standard nixfmt-rfc-style formatter
+          programs.nixfmt.enable = true;
         }
       );
     in
@@ -64,13 +64,11 @@
       nixosModules = {
         dashboard = dashboard.nixosModules.default;
         nix-helpers = nix-helpers.nixosModules.default;
-        gitgetter = gitgetter.nixosModules.default;
 
         default = {
           imports = [
             dashboard.nixosModules.default
             nix-helpers.nixosModules.default
-            gitgetter.nixosModules.default
           ];
         };
       };
@@ -78,6 +76,7 @@
       packages = nixpkgs.lib.genAttrs systems (system: {
         nix-helpers = nix-helpers.packages.${system}.default;
         gitgetter = gitgetter.packages.${system}.default;
+        ai-sh = ai-sh.packages.${system}.default;
       });
     };
 }
