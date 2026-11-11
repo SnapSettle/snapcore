@@ -9,11 +9,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1793045146,
-        "narHash": "sha256-sLLA+7jG8kEue6B8JZznJMx1xk6gTUj8PThK9zSyOaI=",
+        "lastModified": 1794343298,
+        "narHash": "sha256-dHWrJDCKRFtrodG2ZURY0/O4vEyX62PA1jWfU/ROlB4=",
         "owner": "snapsettle",
         "repo": "ai.sh",
-        "rev": "cf317f558b4ac583b134784d0002546b6af1d37f",
+        "rev": "682c73510ca1c9717fb4935bdb222417b7baa5bf",
         "type": "github"
       },
       "original": {
